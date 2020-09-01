@@ -5,7 +5,7 @@
   align-items: center;
   border-bottom: 0px;
 
-  background: $white-color;
+  background: $background-pink;
   
   font-weight: 400;
   color: $dark-blue-text;
@@ -18,11 +18,11 @@
   z-index: -1;
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
-
-  //background-image: url("/src/assets/colorbg.jpg");
+/*
+  background-image: url("/src/assets/colorbg.jpg");
   background-position: center;
   background-size: cover;
-
+*/
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
