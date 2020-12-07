@@ -5,8 +5,7 @@
   align-items: center;
   border-bottom: 0px;
 
-  background: url('https://external-preview.redd.it/Uuss_y8LloW9knQ4ZiIStUYTb8-adCVFNTPF1Q58hmg.png?width=960&crop=smart&auto=webp&s=862ebd4e5b36c48b39e27b25c2ea751b87967a07');
-  
+  // background: url('/src/assets/colorbg.jpg');
   font-weight: 400;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
@@ -18,11 +17,11 @@
   z-index: -1;
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
-/*
+
   background-image: url("/src/assets/colorbg.jpg");
   background-position: center;
   background-size: cover;
-*/
+
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
